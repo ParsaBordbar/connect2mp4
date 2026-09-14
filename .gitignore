@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.DS_Store
+.connect2mp4.json
+connect_out/
+*.zip
+*.mp4
+*.egg-info/
+build/
+dist/
+.pytest_cache/

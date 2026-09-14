@@ -1,0 +1,20 @@
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "connect2mp4"
+version = "1.0.0"
+description = "Export an Adobe Connect recording to a single MP4 (slides + whiteboard + audio)"
+readme = "README.md"
+requires-python = ">=3.10"
+dependencies = ["pillow>=9"]
+
+[project.scripts]
+connect2mp4 = "connect2mp4.cli:main"
+
+[tool.setuptools.packages.find]
+include = ["connect2mp4*"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
