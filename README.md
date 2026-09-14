@@ -13,15 +13,15 @@ or the screen-share video when the teacher shared their screen).
 ## Usage
 
 ```
-python3 -m connect2mp4                                        # no args -> interactive TUI
-python3 -m connect2mp4 https://vc2.shirazu.ac.ir/pquxl04g15ys/ # recording link
-python3 -m connect2mp4 ~/Downloads/last.zip                   # downloaded zip
-python3 -m connect2mp4 ~/Downloads/zips/                      # folder of zips
-python3 -m connect2mp4 last.zip --slides "Learning Theory=~/Downloads/09- Learning Theory-2.pdf"
-python3 -m connect2mp4 last.zip --slides p7v19xnp88eb=~/slides.pptx   # key = sco id or part of name
+python3 run.py                                        # no args -> interactive TUI
+python3 run.py https://vc2.shirazu.ac.ir/pquxl04g15ys/ # recording link
+python3 run.py ~/Downloads/last.zip                   # downloaded zip
+python3 run.py ~/Downloads/zips/                      # folder of zips
+python3 run.py last.zip --slides "Learning Theory=~/Downloads/09- Learning Theory-2.pdf"
+python3 run.py last.zip --slides p7v19xnp88eb=~/slides.pptx   # key = sco id or part of name
 ```
 
-`pip install -e .` also installs a `connect2mp4` command.
+`python3 -m connect2mp4` works too, and `pip install -e .` installs a `connect2mp4` command.
 
 | Option | Meaning |
 | --- | --- |
