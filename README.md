@@ -1,3 +1,5 @@
+<img width="408" height="129" alt="image" src="https://github.com/user-attachments/assets/d884368e-385f-4a8b-8727-c476d39a9ed8" />
+
 # connect2mp4
 
 Export an Adobe Connect recording to a single MP4 (slides + whiteboard strokes + audio,
